@@ -16,7 +16,7 @@ I love Directus because of its flexibility & ability to help us generate massive
 ### [Obsidian](https://obsidian.md)
 
 ### [Syncthing](https://github.com/syncthing/syncthing)
-Peer-to-peer file sync with no cloud in the middle. Keeps the Obsidian vault replicated between an always-on server and the laptop.
+Peer-to-peer file sync with no cloud in the middle. Keeps notes and files in step across machines.
 
 ### [Readwise](https://readwise.io)
 Hub for reading and highlights. Also usable from the terminal through its [CLI](https://github.com/readwiseio/readwise-cli) and from agents through its MCP server.
@@ -30,7 +30,7 @@ Agentic coding CLI from Anthropic. The main engineering layer on every machine I
 Terminal multiplexer built for coding agents: panes, workspaces, and agents controlling other agents. See [herdr.dev](https://herdr.dev).
 
 ### [Hermes Agent](https://github.com/NousResearch/hermes-agent)
-Self-hosted personal agent that handles day-to-day operations and hands heavier engineering work over to Claude Code.
+Open-source, self-hostable personal agent from Nous Research.
 
 ### [Multica](https://github.com/multica-ai/multica)
 Open-source, self-hostable platform for humans and AI agents working as one team, with a CLI for agents and issues. See [multica.ai](https://multica.ai).
@@ -68,7 +68,7 @@ SQL database with Git-style versioning (branch, diff, merge). The storage engine
 Knowledge-graph memory for AI agents, with its own MCP server.
 
 ### [FalkorDB](https://github.com/FalkorDB/falkordb)
-Low-latency graph database, used as the store behind the knowledge graph.
+Low-latency graph database, a good fit for agent knowledge graphs.
 
 ### [pgvector](https://github.com/pgvector/pgvector)
 Vector similarity search inside Postgres, so embeddings live next to the rest of the data.
@@ -102,22 +102,22 @@ The Python testing framework.
 ## Infrastructure and Ops
 
 ### [Tailscale](https://github.com/tailscale/tailscale)
-WireGuard mesh VPN that ties every machine together without opening ports.
+WireGuard-based mesh VPN; machines reach each other without opening ports.
 
 ### [Docker Compose](https://github.com/docker/compose)
 Multi-container deployments on a single host.
 
 ### [Ansible](https://github.com/ansible/ansible)
-Agentless configuration management. Drives the Compose deploys.
+Agentless configuration management and deployment automation.
 
 ### [Traefik](https://github.com/traefik/traefik)
 Reverse proxy with automatic TLS and Docker service discovery.
 
 ### [Keycloak](https://github.com/keycloak/keycloak)
-Identity and access management, single sign-on for self-hosted apps.
+Open-source identity and access management with single sign-on.
 
 ### [systemd](https://github.com/systemd/systemd)
-Services and timers for every always-on job, with `OnFailure=` hooks so failures are loud.
+Services and timers for long-running jobs; `OnFailure=` hooks make failures loud.
 
 ### [restic](https://github.com/restic/restic)
 Fast, encrypted, deduplicated backups.
@@ -162,7 +162,7 @@ Simple, modern file encryption. The key backend for SOPS.
 Scans git repos and commits for leaked secrets.
 
 ### [fail2ban](https://github.com/fail2ban/fail2ban)
-Bans IPs that brute-force exposed services.
+Bans IPs that show brute-force patterns in service logs.
 
 ## CLI Workhorses
 
