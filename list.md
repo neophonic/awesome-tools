@@ -1,5 +1,5 @@
 # awesome-marcom-tools
-List of marcom tools and resources (both opensource and proprietary) I love to use or do recommend.
+List of tools and resources (both opensource and proprietary) I love to use or do recommend.
 
 ## Research Tools
 
