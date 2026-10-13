@@ -3,8 +3,6 @@ List of marcom tools and resources (both opensource and proprietary) I love to u
 
 ## Research Tools
 
-### [Infranodus](https://github.com/noduslabs/infranodus)
-Pretty useful service for text analysis. You can brainstorm, import data sets or explore public documents and topic discourse using Infranodus. Available on GitHub & as a paid SaaS. 
 
 ## Content Management Systems
 
@@ -32,29 +30,11 @@ Terminal multiplexer built for coding agents: panes, workspaces, and agents cont
 ### [Hermes Agent](https://github.com/NousResearch/hermes-agent)
 Open-source, self-hostable personal agent from Nous Research.
 
-### [Multica](https://github.com/multica-ai/multica)
-Open-source, self-hostable platform for humans and AI agents working as one team, with a CLI for agents and issues. See [multica.ai](https://multica.ai).
-
 ### [Superpowers](https://github.com/obra/superpowers)
 Skill library for Claude Code: brainstorming, writing plans, TDD, systematic debugging and subagent-driven development.
 
-### [Claude Code official plugins](https://github.com/anthropics/claude-plugins-official)
-Anthropic's plugin marketplace: code-review, feature-dev, frontend-design, claude-md-management, security-guidance and more.
-
-### [claude-code-skills](https://github.com/levnikolaevich/claude-code-skills)
-Plugin marketplace with codebase-audit, documentation-pipeline and project-bootstrap suites.
-
 ### [Context7](https://github.com/upstash/context7)
 MCP server that gives agents up-to-date library documentation instead of whatever they remember from training.
-
-### [Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp)
-Official MCP server for Microsoft documentation and code samples.
-
-### [GitNexus](https://github.com/abhigyanpatwari/GitNexus)
-Zero-server code intelligence engine. Useful for impact analysis before an agent changes code.
-
-### [coding-buddy](https://github.com/ramarivera/coding-buddy)
-A persistent companion that lives in the Claude Code status line.
 
 ## Agent Memory and Knowledge
 
@@ -121,9 +101,6 @@ Services and timers for long-running jobs; `OnFailure=` hooks make failures loud
 
 ### [restic](https://github.com/restic/restic)
 Fast, encrypted, deduplicated backups.
-
-### [GitHub CLI](https://github.com/cli/cli)
-GitHub from the terminal: PRs, API calls, releases.
 
 ### [Wrangler](https://github.com/cloudflare/workers-sdk)
 CLI for developing and deploying Cloudflare Workers.
